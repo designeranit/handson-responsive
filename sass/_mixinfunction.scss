@@ -1,0 +1,30 @@
+;
+    
+@for $i from 9 through 40 {
+    .m-#{$i} {
+        margin:#{$i}px;
+      }
+    .mb-#{$i} {
+      margin-bottom:#{$i}px;
+    }
+    .mt-#{$i} {
+        margin-top:#{$i}px;
+        }
+    .p-#{$i} {
+    padding:#{$i}px;
+    }
+    .pb-#{$i} {
+    padding-bottom:#{$i}px;
+    }
+    .pt-#{$i} {
+        padding-top:#{$i}px;
+    }
+    .pl-#{$i} {
+        padding-left:#{$i}px;
+        }
+    .pr-#{$i} {
+        padding-right:#{$i}px;
+        }
+  }
+
+    

@@ -1,0 +1,56 @@
+{
+    "newarrive": [
+        {
+            "id": 1,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 2,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 3,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 4,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        }
+    ],
+    "newarrivemore": [
+        {
+            "id": 5,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 6,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 7,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 8,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 9,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        },
+        {
+            "id": 10,
+            "name": "Smart Wall Pad",
+            "image": "images/product-img-1.png"
+        }
+    ]
+}

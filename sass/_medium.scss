@@ -1,0 +1,45 @@
+@media screen and (min-width:768px){
+    
+    
+    /* Header top css Start */
+.main-nav{
+    height: 120px; 
+    // font-size: 12pt; 
+    display: flex;
+    align-items: center;
+    box-shadow: 0px -7px 7px 0px $boxshado;
+   .nav-part{
+       display: flex;
+       justify-content: space-between;
+       padding:0 37px;
+   }
+    .logo{
+        flex: 0 0 100px;
+       
+    }
+    ul {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        li{
+            a{
+                display:flex;
+                align-items: center;
+                font-size: 1em;
+                padding: 0 37px;
+            }
+            &:nth-last-child(1) a{
+                padding-right: 0;
+            }
+            
+        }
+    }
+}
+}
+  /* 992 css start */
+
+  @media screen and (min-width:992px){
+      .main-nav{
+          font-size: 13.5pt;
+      }
+  }

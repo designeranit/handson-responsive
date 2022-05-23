@@ -1,0 +1,133 @@
+/*prevent adjustment of font size after orientation chnage ie on window phone and in ios*/
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: $arialfonts;
+    font-size: 16px;
+}
+ /* comman use scss */
+ .h1-title{
+    font-size: 2.9em;
+    font-weight: $regularfont;
+    font-family: $arialfonts;
+}
+.h2-title{
+    font-size: 2.3em;
+    font-weight: $regularfont;
+    font-family: $arialfonts;
+}
+.h2-title{
+    font-size: 1.5em;
+    font-weight: $regularfont;
+    font-family: $arialfonts;
+}
+.wrapper{
+    max-width: 90%;
+    margin:0 auto;
+    width: 100%;
+}
+.pt-75{
+    padding-top:75px;
+}
+.mt-75{
+    margin-top:75px;
+}
+.dnone{
+    display: none;
+}
+/* Header top css Start */
+header{
+    background: $backcolor;
+    height: 60px;
+    
+    display: flex;
+    align-items: center;  
+    .he-icons{
+        display: flex;
+        justify-content: flex-end;
+        .fa{
+            color:$white;
+            font-size: 2.92em;
+            margin-left: 25px;
+
+        }
+    }
+    
+}
+
+// slider css start
+.banner-slide{
+    .slick-slide{
+        position: relative;
+        img{
+            width: 100%;
+        }
+        .baneer-content{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            width: 100%;
+            height: 100%;
+            .h1-title{
+                color: $primecolor;
+            }
+            .h2-title{
+                color:$fsecondcolor
+            }
+            .h3-title{
+                color: $fsecondcolor;
+            }
+        }
+    }
+
+}
+
+//button scss
+.prim-btn{
+    height: 35px;
+    font-family: $arialfonts;
+    color:$thirdcolor;
+    padding:10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    font-size: 1em;
+    border: 0;
+    box-shadow: none;
+    background: $normalbtn;
+    width: 200px;
+}
+
+.slick-dots{            
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    bottom:40px;
+    padding-left: 40px;
+    li {
+        margin:0 10px;
+        button:before{
+            font-size: 20px;
+            color:#f66729
+          }
+          &.slick-active{
+            button:before{
+                color:#f66729
+              } 
+          }
+    }
+}
+
+// .phone-card-list-in{
+//     display: none;
+// }

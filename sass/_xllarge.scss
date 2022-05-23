@@ -1,0 +1,25 @@
+@media screen and (min-width:1600px){
+    /* Header top css Start */
+    body{       
+        font-size: 22px;
+    }
+    .wrapper{
+        max-width: 1320;           
+        } 
+        // .header{  
+        //     font-size: 9.5pt;               
+        // }
+        .main-nav{           
+            font-size: 16pt;   
+            .nav-part{              
+                padding:0 50px;
+            }        
+        }
+     
+        .slick-dots{            
+            li button:before{
+                font-size: 32px;
+              }        
+        }
+}
+
